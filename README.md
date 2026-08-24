@@ -1,21 +1,3 @@
-Yes. Your current README has good technical content, but it can be made much more **professional, recruiter-friendly, and GitHub-ready**.
-
-The biggest problems are:
-
-* The architecture image is inside a code block, so GitHub won't render it.
-* The README jumps into implementation details before explaining the product.
-* The value proposition can be much clearer.
-* The demo flow is missing.
-* Screenshots should be presented as a proper **Product Showcase**.
-* The Gemini model references should be cleaned up. As of August 2026, `gemini-3.7-flash` is the current GA Flash model; `gemini-3.6-flash` is also stable, while Gemini 2.0 Flash has been shut down. ([Google AI for Developers][1])
-
-Below is the version I'd use.
-
----
-
-# `README.md`
-
-````markdown
 # 🏦 SettleX
 
 ### AI-Powered Payment Reconciliation & Settlement Intelligence
@@ -51,19 +33,19 @@ Payment Gateway
 Expected Settlement
        ↓
 Bank Settlement
-````
+```
 
 These records don't always match.
 
 There may be:
 
-* Amount discrepancies
-* Missing settlements
-* Duplicate transactions
-* Delayed settlements
-* Gateway fees
-* Entity/name variations
-* Missing ledger records
+- Amount discrepancies
+- Missing settlements
+- Duplicate transactions
+- Delayed settlements
+- Gateway fees
+- Entity/name variations
+- Missing ledger records
 
 SettleX automates the reconciliation process and uses AI only where reasoning is actually required.
 
@@ -81,13 +63,13 @@ This prevents the LLM from becoming the source of truth for financial arithmetic
 
 Straightforward transactions are resolved using strict Python logic and exact `Decimal` arithmetic without unnecessary LLM calls.
 
-* Payment ↔ Gateway matching
-* Gateway ↔ Bank matching
-* Expected settlement calculation
-* Fee and charge calculations
-* Settlement-date validation
-* Duplicate detection
-* Difference analysis
+- Payment ↔ Gateway matching
+- Gateway ↔ Bank matching
+- Expected settlement calculation
+- Fee and charge calculations
+- Settlement-date validation
+- Duplicate detection
+- Difference analysis
 
 ---
 
@@ -137,13 +119,13 @@ SettleX includes a synthetic benchmark with known expected outcomes.
 
 Current benchmark:
 
-| Metric                       |      Result |
-| ---------------------------- | ----------: |
-| Match Rate                   |   **80.0%** |
-| System Accuracy              |   **93.3%** |
-| Precision                    |   **94.1%** |
-| Recall                       |   **91.8%** |
-| Entity Variations Resolved   | **20 / 20** |
+| Metric | Result |
+|---|---:|
+| Match Rate | **80.0%** |
+| System Accuracy | **93.3%** |
+| Precision | **94.1%** |
+| Recall | **91.8%** |
+| Entity Variations Resolved | **20 / 20** |
 | Documented Fee Discrepancies | **10 / 10** |
 
 This allows the AI system to be evaluated objectively instead of relying only on demo examples.
@@ -180,28 +162,24 @@ This makes the system easier to inspect, debug, and audit.
 
 ## Dashboard
 
-<!-- Replace with your actual screenshot -->
-
 <p align="center">
   <img src="docs/images/dashboard.png" width="900" alt="SettleX Dashboard" />
 </p>
 
 The dashboard provides a high-level view of:
 
-* Total transactions
-* Matched transactions
-* Exceptions
-* Unresolved cases
-* Match rate
-* Accuracy
-* Precision
-* Recall
+- Total transactions
+- Matched transactions
+- Exceptions
+- Unresolved cases
+- Match rate
+- Accuracy
+- Precision
+- Recall
 
 ---
 
 ## Transaction Reconciliation
-
-<!-- Replace with your actual screenshot -->
 
 <p align="center">
   <img src="docs/images/reconciliation.png" width="900" alt="SettleX Reconciliation Dashboard" />
@@ -213,8 +191,6 @@ SettleX compares payment, gateway, and bank records to determine whether a settl
 
 ## AI Exception Investigation
 
-<!-- Replace with your actual screenshot -->
-
 <p align="center">
   <img src="docs/images/investigation.png" width="900" alt="SettleX AI Investigation" />
 </p>
@@ -225,8 +201,6 @@ For complex exceptions, the LangGraph agent investigates the transaction using c
 
 ## Exception Audit Trail
 
-<!-- Replace with your actual screenshot -->
-
 <p align="center">
   <img src="docs/images/audit-trail.png" width="900" alt="SettleX Audit Trail" />
 </p>
@@ -236,8 +210,6 @@ Every investigation step is recorded so users can understand how the final decis
 ---
 
 ## Evaluation Dashboard
-
-<!-- Replace with your actual screenshot -->
 
 <p align="center">
   <img src="docs/images/evaluation.png" width="900" alt="SettleX Evaluation Dashboard" />
@@ -336,28 +308,28 @@ SettleX follows a **deterministic-first AI architecture**.
 
 ### The LLM does NOT:
 
-* Calculate financial balances
-* Modify transaction amounts
-* Invent fees
-* Directly modify ledger records
-* Decide financial values without evidence
+- Calculate financial balances
+- Modify transaction amounts
+- Invent fees
+- Directly modify ledger records
+- Decide financial values without evidence
 
 ### The backend handles:
 
-* Monetary calculations
-* Ledger matching
-* Settlement calculations
-* Fee calculations
-* Database transactions
-* Ground-truth evaluation
+- Monetary calculations
+- Ledger matching
+- Settlement calculations
+- Fee calculations
+- Database transactions
+- Ground-truth evaluation
 
 ### The AI handles:
 
-* Exception investigation
-* Entity reasoning
-* Evidence interpretation
-* Explanation generation
-* Resolution recommendations
+- Exception investigation
+- Entity reasoning
+- Evidence interpretation
+- Explanation generation
+- Resolution recommendations
 
 This separation makes the system safer and easier to audit.
 
@@ -367,14 +339,14 @@ This separation makes the system safer and easier to audit.
 
 SettleX was evaluated against a synthetic dataset containing **150 transactions with known ground truth**.
 
-| Metric            | Deterministic Baseline | LangGraph + Gemini |       Improvement |
-| ----------------- | ---------------------: | -----------------: | ----------------: |
-| Match Rate        |                  60.0% |          **80.0%** |        **+20.0%** |
-| Accuracy          |                  80.0% |          **93.3%** |        **+13.3%** |
-| Precision         |                  85.2% |          **94.1%** |         **+8.9%** |
-| Recall            |                  80.0% |          **91.8%** |        **+11.8%** |
-| Entity Variations |                 0 / 20 |        **20 / 20** | **100% Recovery** |
-| Fee Discrepancies |                 0 / 10 |        **10 / 10** | **100% Recovery** |
+| Metric | Deterministic Baseline | LangGraph + Gemini | Improvement |
+|---|---:|---:|---:|
+| Match Rate | 60.0% | **80.0%** | **+20.0%** |
+| Accuracy | 80.0% | **93.3%** | **+13.3%** |
+| Precision | 85.2% | **94.1%** | **+8.9%** |
+| Recall | 80.0% | **91.8%** | **+11.8%** |
+| Entity Variations | 0 / 20 | **20 / 20** | **100% Recovery** |
+| Fee Discrepancies | 0 / 10 | **10 / 10** | **100% Recovery** |
 
 > The benchmark uses synthetic data and is intended to demonstrate system behavior and evaluation methodology rather than production financial performance.
 
@@ -384,53 +356,51 @@ SettleX was evaluated against a synthetic dataset containing **150 transactions 
 
 ## Backend
 
-| Technology                      | Purpose               |
-| ------------------------------- | --------------------- |
-| **Python 3.11+**                | Core backend          |
-| **Django 5.x**                  | Backend framework     |
-| **Django REST Framework**       | REST APIs             |
-| **SQLite**                      | Development database  |
-| **Pydantic v2**                 | Structured AI outputs |
-| **Pytest / Django Test Runner** | Testing               |
-| **scikit-learn**                | Evaluation metrics    |
+| Technology | Purpose |
+|---|---|
+| **Python 3.11+** | Core backend |
+| **Django 5.x** | Backend framework |
+| **Django REST Framework** | REST APIs |
+| **SQLite** | Development database |
+| **Pydantic v2** | Structured AI outputs |
+| **Pytest / Django Test Runner** | Testing |
+| **scikit-learn** | Evaluation metrics |
 
 ## AI & Agent
 
-| Technology         | Purpose                |
-| ------------------ | ---------------------- |
-| **LangGraph**      | Agent orchestration    |
-| **LangChain Core** | Agent tooling          |
-| **Google Gemini**  | AI reasoning           |
-| **google-genai**   | Gemini API integration |
-
-> SettleX can use Gemini 3.7 Flash (`gemini-3.7-flash`) for the agent workload. Gemini 3.7 Flash is currently Google's GA Flash model designed for coding and agentic workflows, with function calling and structured-output support.
+| Technology | Purpose |
+|---|---|
+| **LangGraph** | Agent orchestration |
+| **LangChain Core** | Agent tooling |
+| **Google Gemini** | AI reasoning |
+| **google-genai** | Gemini API integration |
 
 ## Frontend
 
-| Technology       | Purpose                   |
-| ---------------- | ------------------------- |
-| **React 18**     | UI                        |
-| **TypeScript**   | Type safety               |
-| **Vite**         | Development/build tooling |
-| **Tailwind CSS** | Styling                   |
-| **Axios**        | API communication         |
-| **Recharts**     | Data visualization        |
-| **Lucide Icons** | UI icons                  |
+| Technology | Purpose |
+|---|---|
+| **React 18** | UI |
+| **TypeScript** | Type safety |
+| **Vite** | Development/build tooling |
+| **Tailwind CSS** | Styling |
+| **Axios** | API communication |
+| **Recharts** | Data visualization |
+| **Lucide Icons** | UI icons |
 
 ---
 
 # 📡 REST API
 
-| Method | Endpoint                                   | Description                            |
-| ------ | ------------------------------------------ | -------------------------------------- |
-| `GET`  | `/api/health/`                             | System health and database statistics  |
-| `POST` | `/api/datasets/generate/`                  | Generate synthetic reconciliation data |
-| `POST` | `/api/reconciliation/run/`                 | Start reconciliation                   |
-| `GET`  | `/api/reconciliation/<job_id>/results/`    | View reconciliation results            |
-| `GET`  | `/api/reconciliation/<job_id>/exceptions/` | View exceptions                        |
-| `GET`  | `/api/evaluation/overview/`                | View evaluation metrics                |
-| `GET`  | `/api/transactions/<payment_id>/`          | Inspect transaction                    |
-| `GET`  | `/api/transactions/<payment_id>/audit/`    | View investigation audit trail         |
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/api/health/` | System health and database statistics |
+| `POST` | `/api/datasets/generate/` | Generate synthetic reconciliation data |
+| `POST` | `/api/reconciliation/run/` | Start reconciliation |
+| `GET` | `/api/reconciliation/<job_id>/results/` | View reconciliation results |
+| `GET` | `/api/reconciliation/<job_id>/exceptions/` | View exceptions |
+| `GET` | `/api/evaluation/overview/` | View evaluation metrics |
+| `GET` | `/api/transactions/<payment_id>/` | Inspect transaction |
+| `GET` | `/api/transactions/<payment_id>/audit/` | View investigation audit trail |
 
 ---
 
@@ -440,10 +410,10 @@ SettleX was evaluated against a synthetic dataset containing **150 transactions 
 
 Make sure you have:
 
-* Python 3.11+
-* Node.js 18+
-* npm
-* Google AI Studio API key
+- Python 3.11+
+- Node.js 18+
+- npm
+- Google AI Studio API key
 
 ---
 
@@ -456,9 +426,7 @@ cd SettleX
 
 ---
 
-# 2. Backend Setup
-
-Create and activate a virtual environment:
+## 2. Backend Setup
 
 ### Windows
 
@@ -525,7 +493,7 @@ http://localhost:8000
 
 ---
 
-# 3. Frontend Setup
+## 3. Frontend Setup
 
 Open another terminal:
 
@@ -544,8 +512,6 @@ http://localhost:5173
 ---
 
 # 🔄 Example Workflow
-
-Once both servers are running:
 
 ```text
 Generate Dataset
@@ -639,11 +605,7 @@ SettleX follows several safeguards for financial data processing.
 
 API keys and secrets are stored in environment variables and excluded from version control.
 
-```text
-.env
-```
-
-is never committed.
+`.env` is never committed.
 
 ### Deterministic Financial Arithmetic
 
@@ -669,22 +631,6 @@ and sent for human review.
 
 ---
 
-# 🎥 Demo
-
-A typical SettleX workflow:
-
-1. Generate a synthetic dataset.
-2. Start reconciliation.
-3. Review automatically matched transactions.
-4. Open an exception.
-5. Run the AI investigation.
-6. Inspect the evidence gathered by the agent.
-7. Review the final resolution.
-8. Inspect the audit trail.
-9. Compare results against ground truth.
-
----
-
 # 🧪 Testing
 
 Run backend tests:
@@ -701,13 +647,13 @@ python manage.py test
 
 The test suite covers:
 
-* Reconciliation rules
-* Settlement calculations
-* Duplicate detection
-* Exception handling
-* Agent tool behavior
-* API endpoints
-* Evaluation metrics
+- Reconciliation rules
+- Settlement calculations
+- Duplicate detection
+- Exception handling
+- Agent tool behavior
+- API endpoints
+- Evaluation metrics
 
 ---
 
@@ -717,19 +663,19 @@ SettleX is designed so the architecture can be extended beyond the current proto
 
 ### Planned possibilities
 
-* PostgreSQL for production workloads
-* Redis + Celery for distributed reconciliation jobs
-* CSV / Excel ledger uploads
-* Real payment gateway integrations
-* Real banking integrations
-* Role-based access control
-* Human approval workflows
-* Multi-currency reconciliation
-* Automated Slack / email alerts
-* Cash-flow forecasting
-* Tax-line reconciliation
-* Invoice matching
-* Multi-agent finance workflows
+- PostgreSQL for production workloads
+- Redis + Celery for distributed reconciliation jobs
+- CSV / Excel ledger uploads
+- Real payment gateway integrations
+- Real banking integrations
+- Role-based access control
+- Human approval workflows
+- Multi-currency reconciliation
+- Automated Slack / email alerts
+- Cash-flow forecasting
+- Tax-line reconciliation
+- Invoice matching
+- Multi-agent finance workflows
 
 ---
 
@@ -791,8 +737,6 @@ See [`LICENSE`](LICENSE) for more information.
 
 # 👨‍💻 Built With
 
-Built with:
-
 **Django · React · TypeScript · LangGraph · Google Gemini · SQLite · Tailwind CSS**
 
 ---
@@ -802,44 +746,3 @@ Built with:
   <br />
   <em>Reconcile faster. Investigate smarter. Escalate responsibly.</em>
 </p>
-```
-
-### One important change I made
-
-I would **not** keep this in your README:
-
-```text
-Gemini API (`gemini-3.6-flash` / `gemini-2.5-flash`)
-```
-
-unless your code genuinely supports both and you need that compatibility. Since you're presenting the project now, use the **exact model your implementation actually uses**. If you're using the current Gemini API model, `gemini-3.7-flash` is the current GA Flash option and supports function calling and structured outputs, which fits your agent architecture well. ([Google AI for Developers][1])
-
-### For your screenshots
-
-Create this folder:
-
-```text
-docs/
-└── images/
-    ├── architecture.png
-    ├── dashboard.png
-    ├── reconciliation.png
-    ├── investigation.png
-    ├── audit-trail.png
-    └── evaluation.png
-```
-
-Then take screenshots of your actual application and replace those six files. GitHub will automatically render them through the README.
-
-**Don't use six random screenshots.** The best order is:
-
-1. **Dashboard** — proves this is a real product.
-2. **Reconciliation** — proves the core workflow.
-3. **AI Investigation** — your strongest screenshot.
-4. **Audit Trail** — proves explainability.
-5. **Evaluation** — proves measurable performance.
-6. **Architecture** — proves the engineering behind it.
-
-And your architecture image should be placed as **actual Markdown/HTML outside a code fence**, as in the README above; your original `<img>` was trapped inside a fenced code block, so GitHub would display it as text rather than as an image.
-
-[1]: https://ai.google.dev/gemini-api/docs/latest-model?utm_source=chatgpt.com "What's new in Gemini 3.7 Flash  |  Gemini API  |  Google AI for Developers"
