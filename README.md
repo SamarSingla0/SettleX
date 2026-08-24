@@ -22,41 +22,8 @@ An enterprise-grade, deterministic, and AI-orchestrated multi-ledger payment rec
 
 
 ```
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e109fa7f-0bdd-43bb-b477-710f8c4e44e3" />
 
-[ Internal Payments Ledger ]     [ Payment Gateway Captures ]     [ Bank Statement Credits ]
-│                                 │                               │
-└─────────────────────────────────┼───────────────────────────────┘
-│
-▼
-┌──────────────────────────────────┐
-│     Tier 1: Deterministic Engine │
-│    (Exact Math, IDs, T+3 Windows)│
-└────────────────┬─────────────────┘
-│
-┌───────────────────────┴───────────────────────┐
-│                                               │
-[ Clean Matches ]                               [ Edge Cases & Diffs ]
-│                                               │
-▼                                               ▼
-Status: MATCHED                               ┌─────────────────┐
-│ Tier 2: LangGraph│
-│ Multi-Tool Agent│
-└────────┬────────┘
-│
-┌────────────────────────┴────────────────────────┐
-▼                                                 ▼
-[ Sandboxed ORM Tools ]                         [ Google Gemini AI ]
-- match_customer_entity()                       - Structured JSON Schema
-- find_fee_explanation()                        - Zero-Hallucination Policy
-- check_duplicate_transactions()                - Fact vs Hypothesis Guard
-│                                                 │
-└────────────────────────┬────────────────────────┘
-│
-▼
-[ Immutable Audit Trail ]
-│
-▼
-[ React TypeScript Dashboard ]
 
 ```
 
