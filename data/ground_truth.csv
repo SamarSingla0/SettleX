@@ -1,0 +1,151 @@
+payment_id,customer_name,scenario_type,expected_status,expected_confidence,expected_difference,expected_reason,is_resolvable,created_at
+P0001,HDFC Life Insurance,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734012+00:00
+P0002,Zomato Media Pvt Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734107+00:00
+P0003,Tata Consultancy Services,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734171+00:00
+P0004,Urban Company Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734334+00:00
+P0005,Titan Company Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734496+00:00
+P0006,Apollo Hospitals Ent,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734547+00:00
+P0007,Mahindra & Mahindra,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734593+00:00
+P0008,Bharti Airtel Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734636+00:00
+P0009,Delhivery Logistics,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734680+00:00
+P0010,Wipro Enterprises,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734723+00:00
+P0011,Reliance Retail Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734767+00:00
+P0012,Paytm One97 Comm,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734810+00:00
+P0013,Bharti Airtel Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734854+00:00
+P0014,Zerodha Broking Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734897+00:00
+P0015,Paytm One97 Comm,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.734940+00:00
+P0016,Delhivery Logistics,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735036+00:00
+P0017,Reliance Retail Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735090+00:00
+P0018,Flipkart Internet Pvt Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735149+00:00
+P0019,Larsen & Toubro Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735193+00:00
+P0020,Zomato Media Pvt Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735237+00:00
+P0021,Larsen & Toubro Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735280+00:00
+P0022,Nykaa FSN E-Commerce,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735323+00:00
+P0023,Swiggy Bundl Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735383+00:00
+P0024,Larsen & Toubro Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735429+00:00
+P0025,Tata Consultancy Services,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735471+00:00
+P0026,HDFC Life Insurance,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735515+00:00
+P0027,Tata Consultancy Services,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735558+00:00
+P0028,Ola ANI Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735601+00:00
+P0029,Swiggy Bundl Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735645+00:00
+P0030,Tata Consultancy Services,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735689+00:00
+P0031,Reliance Retail Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735732+00:00
+P0032,Infosys Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735775+00:00
+P0033,Delhivery Logistics,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735818+00:00
+P0034,Delhivery Logistics,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735861+00:00
+P0035,Bharti Airtel Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735905+00:00
+P0036,Paytm One97 Comm,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.735948+00:00
+P0037,Delhivery Logistics,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.736032+00:00
+P0038,Reliance Retail Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.736083+00:00
+P0039,Infosys Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.736147+00:00
+P0040,Flipkart Internet Pvt Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.736239+00:00
+P0041,Nykaa FSN E-Commerce,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.736314+00:00
+P0042,Apollo Hospitals Ent,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.736374+00:00
+P0043,Reliance Retail Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.736443+00:00
+P0044,Mahindra & Mahindra,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.736531+00:00
+P0045,Delhivery Logistics,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.736602+00:00
+P0046,Zerodha Broking Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.736717+00:00
+P0047,Delhivery Logistics,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.736782+00:00
+P0048,Paytm One97 Comm,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737062+00:00
+P0049,Flipkart Internet Pvt Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737131+00:00
+P0050,Tata Consultancy Services,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737178+00:00
+P0051,Apollo Hospitals Ent,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737232+00:00
+P0052,Wipro Enterprises,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737293+00:00
+P0053,Reliance Retail Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737338+00:00
+P0054,Ola ANI Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737398+00:00
+P0055,Infosys Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737442+00:00
+P0056,MakeMyTrip India,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737486+00:00
+P0057,MakeMyTrip India,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737529+00:00
+P0058,Mahindra & Mahindra,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737573+00:00
+P0059,Wipro Enterprises,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737618+00:00
+P0060,Titan Company Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737661+00:00
+P0061,Flipkart Internet Pvt Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737705+00:00
+P0062,Infosys Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737748+00:00
+P0063,Titan Company Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737791+00:00
+P0064,Wipro Enterprises,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737835+00:00
+P0065,HDFC Life Insurance,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737879+00:00
+P0066,Urban Company Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.737925+00:00
+P0067,Ola ANI Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738009+00:00
+P0068,Apollo Hospitals Ent,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738055+00:00
+P0069,Zomato Media Pvt Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738098+00:00
+P0070,Delhivery Logistics,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738142+00:00
+P0071,Infosys Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738185+00:00
+P0072,MakeMyTrip India,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738246+00:00
+P0073,Reliance Retail Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738295+00:00
+P0074,Flipkart Internet Pvt Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738338+00:00
+P0075,Delhivery Logistics,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738381+00:00
+P0076,Swiggy Bundl Technologies,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738424+00:00
+P0077,Apollo Hospitals Ent,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738467+00:00
+P0078,HDFC Life Insurance,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738514+00:00
+P0079,Flipkart Internet Pvt Ltd,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738558+00:00
+P0080,Paytm One97 Comm,EXACT_MATCH,MATCHED,0.99,0.00,"Deterministic 1:1 match across Payment, Gateway, and Bank credit.",True,2026-08-23 19:01:09.738601+00:00
+P0081,Zerodha Broking Ltd,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'ZERODHA BROKING' mapped to 'Zerodha Broking Ltd'. Amount matched.,True,2026-08-23 19:01:09.738645+00:00
+P0082,Delhivery Logistics,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Delhivery Logistics India' mapped to 'Delhivery Logistics'. Amount matched.,True,2026-08-23 19:01:09.738688+00:00
+P0083,MakeMyTrip India,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'MakeMyTrip India ENT' mapped to 'MakeMyTrip India'. Amount matched.,True,2026-08-23 19:01:09.738731+00:00
+P0084,Bharti Airtel Ltd,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Bharti Airtel Ltd India' mapped to 'Bharti Airtel Ltd'. Amount matched.,True,2026-08-23 19:01:09.738774+00:00
+P0085,Zerodha Broking Ltd,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Zerodha Trading' mapped to 'Zerodha Broking Ltd'. Amount matched.,True,2026-08-23 19:01:09.738817+00:00
+P0086,Flipkart Internet Pvt Ltd,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'FK Internet' mapped to 'Flipkart Internet Pvt Ltd'. Amount matched.,True,2026-08-23 19:01:09.738860+00:00
+P0087,Mahindra & Mahindra,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Mahindra & Mahindra ENT' mapped to 'Mahindra & Mahindra'. Amount matched.,True,2026-08-23 19:01:09.738904+00:00
+P0088,Apollo Hospitals Ent,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Apollo Hospitals Ent India' mapped to 'Apollo Hospitals Ent'. Amount matched.,True,2026-08-23 19:01:09.738947+00:00
+P0089,Flipkart Internet Pvt Ltd,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'FK Internet' mapped to 'Flipkart Internet Pvt Ltd'. Amount matched.,True,2026-08-23 19:01:09.739028+00:00
+P0090,Wipro Enterprises,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Wipro Enterprises India' mapped to 'Wipro Enterprises'. Amount matched.,True,2026-08-23 19:01:09.739072+00:00
+P0091,Apollo Hospitals Ent,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Apollo Hospitals Ent ENT' mapped to 'Apollo Hospitals Ent'. Amount matched.,True,2026-08-23 19:01:09.739115+00:00
+P0092,Flipkart Internet Pvt Ltd,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'FLIPKART PAYMENTS' mapped to 'Flipkart Internet Pvt Ltd'. Amount matched.,True,2026-08-23 19:01:09.739158+00:00
+P0093,Ola ANI Technologies,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Ola ANI Technologies ENT' mapped to 'Ola ANI Technologies'. Amount matched.,True,2026-08-23 19:01:09.739202+00:00
+P0094,Paytm One97 Comm,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Paytm One97 Comm India' mapped to 'Paytm One97 Comm'. Amount matched.,True,2026-08-23 19:01:09.739268+00:00
+P0095,Nykaa FSN E-Commerce,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Nykaa FSN E-Commerce India' mapped to 'Nykaa FSN E-Commerce'. Amount matched.,True,2026-08-23 19:01:09.739313+00:00
+P0096,Larsen & Toubro Ltd,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Larsen & Toubro Ltd India' mapped to 'Larsen & Toubro Ltd'. Amount matched.,True,2026-08-23 19:01:09.739355+00:00
+P0097,HDFC Life Insurance,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'HDFC Life Insurance ENT' mapped to 'HDFC Life Insurance'. Amount matched.,True,2026-08-23 19:01:09.739411+00:00
+P0098,Reliance Retail Ltd,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Reliance Ind - Retail' mapped to 'Reliance Retail Ltd'. Amount matched.,True,2026-08-23 19:01:09.739455+00:00
+P0099,Titan Company Ltd,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Titan Company Ltd ENT' mapped to 'Titan Company Ltd'. Amount matched.,True,2026-08-23 19:01:09.739498+00:00
+P0100,Delhivery Logistics,ENTITY_VARIATION,RESOLVED,0.96,0.00,Entity variation 'Delhivery Logistics ENT' mapped to 'Delhivery Logistics'. Amount matched.,True,2026-08-23 19:01:09.739541+00:00
+P0101,Paytm One97 Comm,DELAYED_SETTLEMENT,MATCHED_DELAYED,0.98,0.00,Settlement confirmed with acceptable 7-day gateway hold delay.,True,2026-08-23 19:01:09.739585+00:00
+P0102,Zerodha Broking Ltd,DELAYED_SETTLEMENT,MATCHED_DELAYED,0.98,0.00,Settlement confirmed with acceptable 7-day gateway hold delay.,True,2026-08-23 19:01:09.739628+00:00
+P0103,Zerodha Broking Ltd,DELAYED_SETTLEMENT,MATCHED_DELAYED,0.98,0.00,Settlement confirmed with acceptable 7-day gateway hold delay.,True,2026-08-23 19:01:09.739671+00:00
+P0104,Zomato Media Pvt Ltd,DELAYED_SETTLEMENT,MATCHED_DELAYED,0.98,0.00,Settlement confirmed with acceptable 7-day gateway hold delay.,True,2026-08-23 19:01:09.739714+00:00
+P0105,Infosys Technologies,DELAYED_SETTLEMENT,MATCHED_DELAYED,0.98,0.00,Settlement confirmed with acceptable 7-day gateway hold delay.,True,2026-08-23 19:01:09.739757+00:00
+P0106,Titan Company Ltd,DELAYED_SETTLEMENT,MATCHED_DELAYED,0.98,0.00,Settlement confirmed with acceptable 7-day gateway hold delay.,True,2026-08-23 19:01:09.739801+00:00
+P0107,Larsen & Toubro Ltd,DELAYED_SETTLEMENT,MATCHED_DELAYED,0.98,0.00,Settlement confirmed with acceptable 7-day gateway hold delay.,True,2026-08-23 19:01:09.739844+00:00
+P0108,Tata Consultancy Services,DELAYED_SETTLEMENT,MATCHED_DELAYED,0.98,0.00,Settlement confirmed with acceptable 7-day gateway hold delay.,True,2026-08-23 19:01:09.739888+00:00
+P0109,Delhivery Logistics,DELAYED_SETTLEMENT,MATCHED_DELAYED,0.98,0.00,Settlement confirmed with acceptable 7-day gateway hold delay.,True,2026-08-23 19:01:09.739931+00:00
+P0110,Zerodha Broking Ltd,DELAYED_SETTLEMENT,MATCHED_DELAYED,0.98,0.00,Settlement confirmed with acceptable 7-day gateway hold delay.,True,2026-08-23 19:01:09.740012+00:00
+P0111,Mahindra & Mahindra,AMOUNT_MISMATCH_FEE,RESOLVED,0.97,500.00,Discrepancy explained by audited ₹500 gateway dispute handling surcharge.,True,2026-08-23 19:01:09.740058+00:00
+P0112,Zomato Media Pvt Ltd,AMOUNT_MISMATCH_FEE,RESOLVED,0.97,500.00,Discrepancy explained by audited ₹500 gateway dispute handling surcharge.,True,2026-08-23 19:01:09.757303+00:00
+P0113,MakeMyTrip India,AMOUNT_MISMATCH_FEE,RESOLVED,0.97,500.00,Discrepancy explained by audited ₹500 gateway dispute handling surcharge.,True,2026-08-23 19:01:09.757370+00:00
+P0114,Zomato Media Pvt Ltd,AMOUNT_MISMATCH_FEE,RESOLVED,0.97,500.00,Discrepancy explained by audited ₹500 gateway dispute handling surcharge.,True,2026-08-23 19:01:09.757415+00:00
+P0115,Larsen & Toubro Ltd,AMOUNT_MISMATCH_FEE,RESOLVED,0.97,500.00,Discrepancy explained by audited ₹500 gateway dispute handling surcharge.,True,2026-08-23 19:01:09.757461+00:00
+P0116,Mahindra & Mahindra,AMOUNT_MISMATCH_FEE,RESOLVED,0.97,500.00,Discrepancy explained by audited ₹500 gateway dispute handling surcharge.,True,2026-08-23 19:01:09.757505+00:00
+P0117,Infosys Technologies,AMOUNT_MISMATCH_FEE,RESOLVED,0.97,500.00,Discrepancy explained by audited ₹500 gateway dispute handling surcharge.,True,2026-08-23 19:01:09.757550+00:00
+P0118,Paytm One97 Comm,AMOUNT_MISMATCH_FEE,RESOLVED,0.97,500.00,Discrepancy explained by audited ₹500 gateway dispute handling surcharge.,True,2026-08-23 19:01:09.757608+00:00
+P0119,Paytm One97 Comm,AMOUNT_MISMATCH_FEE,RESOLVED,0.97,500.00,Discrepancy explained by audited ₹500 gateway dispute handling surcharge.,True,2026-08-23 19:01:09.757653+00:00
+P0120,Zomato Media Pvt Ltd,AMOUNT_MISMATCH_FEE,RESOLVED,0.97,500.00,Discrepancy explained by audited ₹500 gateway dispute handling surcharge.,True,2026-08-23 19:01:09.757696+00:00
+P0121,Zerodha Broking Ltd,DUPLICATE_SETTLEMENT,EXCEPTION,0.99,78600.20,Duplicate bank credit transaction detected for identical settlement reference.,False,2026-08-23 19:01:09.757741+00:00
+P0122,Wipro Enterprises,DUPLICATE_SETTLEMENT,EXCEPTION,0.99,26460.44,Duplicate bank credit transaction detected for identical settlement reference.,False,2026-08-23 19:01:09.757785+00:00
+P0123,Larsen & Toubro Ltd,DUPLICATE_SETTLEMENT,EXCEPTION,0.99,84165.68,Duplicate bank credit transaction detected for identical settlement reference.,False,2026-08-23 19:01:09.757828+00:00
+P0124,Paytm One97 Comm,DUPLICATE_SETTLEMENT,EXCEPTION,0.99,25191.12,Duplicate bank credit transaction detected for identical settlement reference.,False,2026-08-23 19:01:09.757893+00:00
+P0125,Reliance Retail Ltd,DUPLICATE_SETTLEMENT,EXCEPTION,0.99,74304.04,Duplicate bank credit transaction detected for identical settlement reference.,False,2026-08-23 19:01:09.757939+00:00
+P0126,Ola ANI Technologies,DUPLICATE_SETTLEMENT,EXCEPTION,0.99,134352.64,Duplicate bank credit transaction detected for identical settlement reference.,False,2026-08-23 19:01:09.757982+00:00
+P0127,Nykaa FSN E-Commerce,DUPLICATE_SETTLEMENT,EXCEPTION,0.99,25972.24,Duplicate bank credit transaction detected for identical settlement reference.,False,2026-08-23 19:01:09.758071+00:00
+P0128,Zomato Media Pvt Ltd,DUPLICATE_SETTLEMENT,EXCEPTION,0.99,91879.24,Duplicate bank credit transaction detected for identical settlement reference.,False,2026-08-23 19:01:09.758116+00:00
+P0129,Delhivery Logistics,DUPLICATE_SETTLEMENT,EXCEPTION,0.99,101545.60,Duplicate bank credit transaction detected for identical settlement reference.,False,2026-08-23 19:01:09.758159+00:00
+P0130,Zerodha Broking Ltd,DUPLICATE_SETTLEMENT,EXCEPTION,0.99,69324.40,Duplicate bank credit transaction detected for identical settlement reference.,False,2026-08-23 19:01:09.758203+00:00
+P0131,Titan Company Ltd,MISSING_BANK,UNRESOLVED,0.96,53604.36,Payment captured on Gateway but missing in Bank Statement. Manual escalation required.,False,2026-08-23 19:01:09.758246+00:00
+P0132,Tata Consultancy Services,MISSING_BANK,UNRESOLVED,0.96,103693.68,Payment captured on Gateway but missing in Bank Statement. Manual escalation required.,False,2026-08-23 19:01:09.758289+00:00
+P0133,Flipkart Internet Pvt Ltd,MISSING_BANK,UNRESOLVED,0.96,75768.64,Payment captured on Gateway but missing in Bank Statement. Manual escalation required.,False,2026-08-23 19:01:09.758332+00:00
+P0134,Urban Company Technologies,MISSING_BANK,UNRESOLVED,0.96,145093.04,Payment captured on Gateway but missing in Bank Statement. Manual escalation required.,False,2026-08-23 19:01:09.758376+00:00
+P0135,Flipkart Internet Pvt Ltd,MISSING_BANK,UNRESOLVED,0.96,21969.00,Payment captured on Gateway but missing in Bank Statement. Manual escalation required.,False,2026-08-23 19:01:09.758419+00:00
+P0136,Delhivery Logistics,MISSING_BANK,UNRESOLVED,0.96,52920.88,Payment captured on Gateway but missing in Bank Statement. Manual escalation required.,False,2026-08-23 19:01:09.758462+00:00
+P0137,Tata Consultancy Services,MISSING_BANK,UNRESOLVED,0.96,23433.60,Payment captured on Gateway but missing in Bank Statement. Manual escalation required.,False,2026-08-23 19:01:09.758506+00:00
+P0138,Paytm One97 Comm,MISSING_BANK,UNRESOLVED,0.96,66102.28,Payment captured on Gateway but missing in Bank Statement. Manual escalation required.,False,2026-08-23 19:01:09.758549+00:00
+P0139,Ola ANI Technologies,MISSING_BANK,UNRESOLVED,0.96,73620.56,Payment captured on Gateway but missing in Bank Statement. Manual escalation required.,False,2026-08-23 19:01:09.758593+00:00
+P0140,Titan Company Ltd,MISSING_BANK,UNRESOLVED,0.96,58974.56,Payment captured on Gateway but missing in Bank Statement. Manual escalation required.,False,2026-08-23 19:01:09.758636+00:00
+P0141,HDFC Life Insurance,MISSING_GATEWAY,UNRESOLVED,0.98,44400.00,Payment record initiated but no corresponding Gateway capture record exists.,False,2026-08-23 19:01:09.758679+00:00
+P0142,Swiggy Bundl Technologies,MISSING_GATEWAY,UNRESOLVED,0.98,44200.00,Payment record initiated but no corresponding Gateway capture record exists.,False,2026-08-23 19:01:09.758722+00:00
+P0143,MakeMyTrip India,MISSING_GATEWAY,UNRESOLVED,0.98,112400.00,Payment record initiated but no corresponding Gateway capture record exists.,False,2026-08-23 19:01:09.758766+00:00
+P0144,Wipro Enterprises,MISSING_GATEWAY,UNRESOLVED,0.98,51500.00,Payment record initiated but no corresponding Gateway capture record exists.,False,2026-08-23 19:01:09.758808+00:00
+P0145,Tata Consultancy Services,MISSING_GATEWAY,UNRESOLVED,0.98,150000.00,Payment record initiated but no corresponding Gateway capture record exists.,False,2026-08-23 19:01:09.758862+00:00
+P0146,Reliance Retail Ltd,UNEXPLAINED_DIFF,UNRESOLVED,0.92,312.45,Unexplained variance of ₹312.45. No matching fee schedule or deduction record.,False,2026-08-23 19:01:09.758917+00:00
+P0147,HDFC Life Insurance,UNEXPLAINED_DIFF,UNRESOLVED,0.92,312.45,Unexplained variance of ₹312.45. No matching fee schedule or deduction record.,False,2026-08-23 19:01:09.758960+00:00
+P0148,Titan Company Ltd,UNEXPLAINED_DIFF,UNRESOLVED,0.92,312.45,Unexplained variance of ₹312.45. No matching fee schedule or deduction record.,False,2026-08-23 19:01:09.759046+00:00
+P0149,Nykaa FSN E-Commerce,UNEXPLAINED_DIFF,UNRESOLVED,0.92,312.45,Unexplained variance of ₹312.45. No matching fee schedule or deduction record.,False,2026-08-23 19:01:09.759090+00:00
+P0150,Infosys Technologies,UNEXPLAINED_DIFF,UNRESOLVED,0.92,312.45,Unexplained variance of ₹312.45. No matching fee schedule or deduction record.,False,2026-08-23 19:01:09.759135+00:00
